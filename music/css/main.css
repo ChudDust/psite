@@ -12,11 +12,55 @@ body {
   height: 250px;
 }
 
-h1 {
+h1 span {
   position: absolute;
-  top: 183px;
-  left: 185px;
-  width: 100%;
   color: #B1D6E3;
   font-family: cursive;
+  font-size: 90%;
+  bottom: 425px;
+  padding: 0 15px;
+  width: 40%;
+  line-height: 220%;
+  /*top: 30%;
+  left: 0%;
+  color: #B1D6E3;
+  transform: translate(85px, 10px);
+  font-family: cursive;*/
+}
+
+.paragraphleft {
+  color: black;
+  padding-top: 15px;
+  align-content: flex-start;
+}
+
+li {
+  color: black;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#basementpic {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  padding-top: 15px;
+}
+
+#belowpic {
+  padding: 10px;
+  text-align: center;
+  color: black;
+  font-family: cursive;
+}
+
+#playedby {
+  color: black;
+  text-align: center;
+}
+
+#center {
+  text-align: center;
+  margin-right: 10%;
 }
